@@ -20,6 +20,9 @@ public class Fibinocci {
         System.out.println("Enter the Number : ");
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
-        System.out.println(fib(num));
+        for (int i= 1; i<=num; i++){
+            System.out.println(fib(num) + " ");
+        }
+
     }
 }
